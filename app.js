@@ -7,6 +7,11 @@ let cats = [{
         "name": "Sylvester",
         "pic": "img/cat2.jpg",
         "clicks": 0
+    },
+    {
+        "name": "Jeffery",
+        "pic": "img/cat3.jpg",
+        "clicks": 0
     }
 ];
 
