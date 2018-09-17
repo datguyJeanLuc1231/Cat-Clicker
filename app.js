@@ -10,6 +10,7 @@ let cats = [{
     }
 ];
 
+// Creates the Main and Container divs in the dom
 function makeCatPics() {
     let toAdd = "";
     $.each(cats, (catIndex, cat) => {
@@ -18,6 +19,7 @@ function makeCatPics() {
     $("#main").append("<div class='row'><div class='container'>" + toAdd + "</div></div>");
 }
 
+// When the user clicks on the images, a counter appears showing how many times they click on the image
 $(document).ready(function () {
     makeCatPics();
     $(".clickable").click(function (obj) {
